@@ -1,11 +1,11 @@
 # NLP
-This repo will contain all information about NLP
-The dataset is from http://ai.stanford.edu/~amaas/data/sentiment/
+This repo will contain all information about NLP.</br>
+The dataset is from http://ai.stanford.edu/~amaas/data/sentiment/ </br>
 It is for sentiment analysis also known as text classification.
 
-Below is the bash to combine positive reviews and negative reviews in train and test.
+Below is the bash to combine positive reviews and negative reviews in train and test.</br>
 After download movie_data.tar.gz, unzip it and run the below bash file.
-
+```
 #!/bin/bash
 
 cd aclImdb
@@ -29,5 +29,5 @@ do
     done;
   done;
 done;
-
-I give the data directory call movie_data which is the result running bash file. And I use this dataset to do NLP learning.
+```
+I give the data directory call movie_data which is the result of running the above bash code. I will use this dataset to do NLP learning and test.
